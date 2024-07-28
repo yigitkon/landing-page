@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: Roboto;
 }
 
 .header{
-    font-family: "Roboto";
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
@@ -22,12 +24,13 @@ body{
 }
 .header-lower{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 80px;
 }
 .left-header{
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 350px;
     gap: 10px;
 }
 .header-logo{
@@ -46,7 +49,7 @@ ui{
     font-weight: 800;
 }
 .placeholder{
-    background-color: gray;
+    background-color: rgb(124, 124, 124);
     margin-right: 40px;
     width: 400px;
     height: 200px;
@@ -89,9 +92,8 @@ ui{
 }
 .info-main{
     display: flex;
-    justify-content: space-around;
-    margin-left: 50px;
-    margin-right: 50px;
+    justify-content: center;
+    gap: 100px;
 }
 .sub{
     display: flex;
@@ -113,7 +115,9 @@ ui{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 400px;
+    gap: 20px;
 }
 .quote-text{
     width: 800px;
@@ -127,7 +131,8 @@ ui{
     font-weight: 800;
     font-size: 24px;
     justify-content: flex-end;
-    margin-right: 300px;
+    margin-left: 500px;
+
 }
 
 .bottom-part{
@@ -136,7 +141,7 @@ ui{
     background-color: #3882f6;
     border-radius: 10px;
     color: #E5E7EB;
-    width: 1000px;
+    width: 800px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -150,11 +155,19 @@ ui{
 
 .footer{
     background-color: #1F2937;
-    font-family: "Roboto";
+    font-family: Roboto;
     font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
 }
-
+.bottom-button{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
