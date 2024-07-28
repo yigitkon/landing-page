@@ -12,7 +12,7 @@ body{
     gap: 32px;
     font-size: 18px;
     color: #E5E7EB;
-    height: 500px;
+    height: 350px;
 }
 .header-top{
     display: flex;
@@ -60,6 +60,7 @@ ui{
 }
 .button{
     background-color: #3882f6;
+    border-radius: 8px;
     width: 100px;
     height: 30px;
     display: flex;
@@ -67,13 +68,68 @@ ui{
     align-items: center;
 }
 
+.information{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-around;
+}
+.info-title{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+.box{
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+}
+.info-main{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    gap: 10px;
+}
+.info-text{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+}
 
 
-
-
-
-
-
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+.quote-text{
+    width: 800px;
+    padding: 0px 200px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+}
+.quoter{
+    display: flex;
+    font-weight: 800;
+    font-size: 24px;
+    justify-content: flex-end;
+    margin-right: 300px;
+}
 .footer{
     background-color: #1F2937;
     font-family: "Roboto";
