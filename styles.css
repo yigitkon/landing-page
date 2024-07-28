@@ -108,7 +108,6 @@ ui{
     justify-content: center;
 }
 
-
 .quote{
     background-color: #E5E7EB;
     display: flex;
@@ -130,6 +129,25 @@ ui{
     justify-content: flex-end;
     margin-right: 300px;
 }
+
+.bottom-part{
+    display: flex;
+    height: 100px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #E5E7EB;
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottom-text-part{
+    display: flex;
+    flex-direction: column;
+}
+
 .footer{
     background-color: #1F2937;
     font-family: "Roboto";
